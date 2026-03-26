@@ -5,6 +5,7 @@ using Server.Auth;
 using Server.Beacons;
 using Server.Core;
 using Server.Listeners;
+using Server.Proxy;
 using Server.Tasks;
 using System.Text;
 
@@ -77,6 +78,7 @@ public sealed class Program
         app.MapGrpcService<ListenerProtoService>();
         app.MapGrpcService<BeaconProtoService>();
         app.MapGrpcService<TasksProtoService>();
+        app.MapGrpcService<ProxyProtoService>();
         
         app.Logger.LogInformation("Server started");
 

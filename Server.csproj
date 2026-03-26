@@ -12,6 +12,7 @@
         <Protobuf Include="Beacons\beacons.proto" GrpcServices="Server" />
         <Protobuf Include="Listeners\listeners.proto" GrpcServices="Server" />
         <Protobuf Include="Tasks\tasks.proto" GrpcServices="Server" />
+        <Protobuf Include="Proxy\proxy.proto" GrpcServices="Server" />
     </ItemGroup>
 
     <ItemGroup>

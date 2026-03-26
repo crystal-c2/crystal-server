@@ -18,9 +18,10 @@ message TaskRequest {
 }
 
 enum TaskType {
-  TASK_TYPE_EXIT  = 0;
-  TASK_TYPE_SLEEP = 1;
-  TASK_TYPE_PICO  = 2;
+  TASK_TYPE_EXIT   = 0;
+  TASK_TYPE_SLEEP  = 1;
+  TASK_TYPE_PICO   = 2;
+  TASK_TYPE_SOCKS5 = 3;
 }
 
 message TaskResponse {
